@@ -2,4 +2,4 @@ create App
 add git
 create Podfile
 create VIP folders structure
-
+create .gitignore file
