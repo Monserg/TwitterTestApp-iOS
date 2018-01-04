@@ -3,3 +3,7 @@ add git
 create Podfile
 create VIP folders structure
 create .gitignore file
+create Twitter App
+add TwitterKit pod manual
+modify Info.plist file
+

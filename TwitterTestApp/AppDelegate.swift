@@ -8,14 +8,19 @@
 
 import UIKit
 
+
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    // MARK: - Properties
     var window: UIWindow?
 
 
+    // MARK: - Class Functions
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Twitter
+        Twitter.sharedInstance().start(withConsumerKey: "bjFBmV4XjyugqyBeqkIP22HWM",
+                                       consumerSecret:  "x0c6O1QAQdySVucOMpu2QJV8I1BLJXqCM3T66mfM8mRYq7gQjk")
+        
         return true
     }
 
